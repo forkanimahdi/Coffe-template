@@ -10762,6 +10762,7 @@ header .list a:hover a {
 header .list .active {
   background-color: #ff2600;
 }
+
 .section1 {
   height: 100vh;
   position: relative;
@@ -10772,29 +10773,9 @@ header .list .active {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(0.2);
+  filter: brightness(0.3);
   width: 100%;
   height: 100%;
-}
-.section1 img {
-  top: 0;
-  filter: brightness(0.5);
-}
-.section1 .croissant {
-  left: 80%;
-  top: 60%;
-}
-.section1 .juices {
-  left: 60%;
-  top: 30%;
-}
-.section1 .cola {
-  left: 75%;
-  top: 40%;
-}
-.section1 .cup {
-  left: 65%;
-  top: 55%;
 }
 
 /*# sourceMappingURL=app.css.map */
