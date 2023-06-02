@@ -10728,11 +10728,13 @@ textarea.form-control-lg {
 
 header {
   position: absolute;
+  z-index: 1;
   height: 13vh;
   background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-size: 1.3vw;
 }
 header a {
   width: fit-content;
@@ -10743,7 +10745,6 @@ header .list {
   align-items: center;
   height: 100%;
   margin: 0;
-  font-size: 1.3vw;
 }
 header .list a {
   margin-inline: 1vw;
@@ -10762,13 +10763,26 @@ header .list a:hover a {
 header .list .active {
   background-color: #ff2600;
 }
+header .open-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10vw;
+}
+header .open-time p {
+  color: #ff2600;
+  margin: 0;
+}
+header .open-time div {
+  color: white;
+}
 
 .section1 {
   height: 100vh;
   position: relative;
-  z-index: -1;
 }
 .section1 .hero-image {
+  z-index: -1;
   background-image: url(../img/Coffe\ background.jpg);
   background-size: cover;
   background-position: center;
@@ -10776,6 +10790,31 @@ header .list .active {
   filter: brightness(0.3);
   width: 100%;
   height: 100%;
+}
+.section1 h1, .section1 .h1 {
+  color: #ff2600;
+  font-family: "Courgette";
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  font-size: 3.5vw;
+  width: 100%;
+}
+.section1 p {
+  color: white;
+  font-family: "Courgette";
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5vw;
+}
+.section1 .link-button {
+  text-decoration: none;
+  background-color: #491404;
+  font-size: 1.3vw;
+  padding: 1vw;
+  color: #ff2600;
 }
 
 /*# sourceMappingURL=app.css.map */
